@@ -1,0 +1,172 @@
+.AllDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  height: 300px;
+  gap: 10px;
+}
+
+.Div {
+  border: 1px solid rgb(242 242 242);
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  border-radius: 20px;
+}
+
+.Date {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewImg {
+  width: 100%;
+  display: flex;
+}
+.NewImg h4 {
+  margin-left: 4%;
+  margin-top: 10%;
+}
+
+.img {
+  content: url('./img/image2.png');
+  height: 50px;
+  margin-top: 7%;
+  margin-left: 10%;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(4, 207, 4);
+  margin-top: 7%;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.Paragraph p {
+  color: rgb(155, 155, 155);
+  width: 90%;
+  margin-left: 5%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.Download {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.btn2 {
+  border: 1px solid blue;
+  color: blue;
+  background: none;
+  width: 30%;
+  height: 45px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: rgb(25, 0, 255);
+  color: white;
+}
+
+/* Responsive */
+
+@media (max-width: 819px) {
+  .Div {
+    border: 1px solid rgb(242 242 242);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Download {
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+  }
+
+  .btn2 {
+    border: 1px solid blue;
+    color: blue;
+    background: none;
+    width: 50%;
+    height: 45px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .btn2:hover {
+    background-color: rgb(25, 0, 255);
+    color: white;
+  }
+
+  .Paragraph p {
+    color: rgb(155, 155, 155);
+    width: 90%;
+    margin-top: 5%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Date {
+    margin-top: 5%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .NewImg {
+    width: 100%;
+  }
+
+  .NewImg h4 {
+    width: 30%;
+    margin-left: -27%;
+    margin-top: 8%;
+  }
+
+  .img {
+    margin-right: 30%;
+    border-radius: 100px;
+  }
+
+  .btn {
+    width: 30%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(4, 207, 4);
+    margin-top: 7%;
+    border-radius: 10px;
+    margin-left: 15%;
+  }
+}
